@@ -1,0 +1,20 @@
+body {
+  background: #475cd1;
+  color: #f00;
+  border: 1px solid #f00;
+}
+body main {
+  color: #00f;
+  border: solid 1px #00f;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  zoom: 1;
+}
+body main:after,
+body main:before {
+  content: "";
+  display: table;
+}
+body main:after {
+  clear: both;
+}
