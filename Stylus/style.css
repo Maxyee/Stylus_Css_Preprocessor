@@ -12,8 +12,12 @@ body main {
   padding: 10px 100px 20px 200px;
   color: #00f;
   border: solid 1px #00f;
-  -webkit-border-radius: 10px;
   border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
   zoom: 1;
 }
 body main:after,
