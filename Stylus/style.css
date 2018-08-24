@@ -4,6 +4,10 @@ body {
   border: 1px solid #f00;
 }
 body main {
+  background: #808080;
+  margin-top: 10px;
+  margin-right: 5%;
+  margin-left: 4.6px;
   color: #00f;
   border: solid 1px #00f;
   -webkit-border-radius: 10px;

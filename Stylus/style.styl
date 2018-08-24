@@ -8,6 +8,12 @@ body
     color red
     border 1px solid @color
     main
+        //background rgba(#fff,0.9)
+        //background rgba(blue,0.9)  //it is also correct
+        background grayscale(blue)  // grayscale is a buildin function of stylus
+        margin-top abs(-10px) //here abs is absolute buildin function
+        margin-right ceil(4.6%)
+        margin-left unit(4.6%, 'px') 
         color blue
         border solid 1px @color
         border-radius(10px)
