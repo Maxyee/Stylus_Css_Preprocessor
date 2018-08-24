@@ -3,17 +3,26 @@
 //@import 'styl/mixins'
 
 
+add(a, b, c = a)
+    return a + b + c
+
+marge(a, b)
+    return a a*10 a*2 a*b
+
+
 body
     background primary
     color red
     border 1px solid @color
+    margin-left add(1rem,2)
     main
         //background rgba(#fff,0.9)
         //background rgba(blue,0.9)  //it is also correct
         background grayscale(blue)  // grayscale is a buildin function of stylus
         margin-top abs(-10px) //here abs is absolute buildin function
         margin-right ceil(4.6%)
-        margin-left unit(4.6%, 'px') 
+        margin-left unit(4.6%, 'px')
+        padding marge(10px,20) 
         color blue
         border solid 1px @color
         border-radius(10px)
