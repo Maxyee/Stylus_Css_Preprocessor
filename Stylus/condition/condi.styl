@@ -1,0 +1,16 @@
+test(var)
+    margin-top unit(var, 'px')
+    if var > 5
+        background red
+        margin-bottom unit(var, 'px')
+    else
+        background blue
+
+color = black
+
+
+body
+    color red
+    border solid 1px @color
+    margin-left 10px
+    test(4)
