@@ -1,0 +1,53 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+article,
+details,
+section,
+summary,
+aside,
+main,
+menu,
+nav,
+figcaption,
+figure,
+footer,
+header,
+hgroup {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+[hidden],
+template {
+  display: none;
+}
+body {
+  background: -webkit-linear-gradient(top, #fff 80%, #000);
+  background: -moz-linear-gradient(top, #fff 80%, #000);
+  background: -o-linear-gradient(top, #fff 80%, #000);
+  background: -ms-linear-gradient(top, #fff 80%, #000);
+  background: linear-gradient(to bottom, #fff 80%, #000);
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #f00;
+  border: solid 1px #f00;
+  margin-left: 10px;
+  margin-top: 4px;
+  background: #00f;
+}

@@ -1,0 +1,12 @@
+body {
+  background: -webkit-linear-gradient(top, #fff, #000);
+  background: -moz-linear-gradient(top, #fff, #000);
+  background: -o-linear-gradient(top, #fff, #000);
+  background: -ms-linear-gradient(top, #fff, #000);
+  background: linear-gradient(to bottom, #fff, #000);
+  color: #f00;
+  border: solid 1px #f00;
+  margin-left: 10px;
+  margin-top: 4px;
+  background: #00f;
+}
